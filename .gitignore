@@ -35,3 +35,4 @@ vignettes/*.pdf
 
 # The Dataset
 /UCI HAR Dataset/*
+UCI HAR Dataset.zip

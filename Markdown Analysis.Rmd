@@ -1,0 +1,61 @@
+---
+title: "MarkdownAnalysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Load Libraries}
+library(dplyr)
+library(tidyr)
+
+
+setwd("~/Dropbox/MOOC/Coursera/Data Science Beginner/3. Getting & Cleaning Data/Project/Coursera-GettingCleaningData")
+```
+
+# Get Data
+Clear out the dataset if it exists
+```{bash}
+rm -R UCI\ HAR\ Dataset/
+```
+
+```{r}
+url = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+
+download.file(url,'UCI HAR Dataset.zip')
+
+
+
+```
+
+```{bash}
+unzip 'UCI HAR Dataset.zip' -d 'UCI HAR Dataset'
+```
+
+
+
+# Merge
+Merges the training and the test sets to create one data set.
+```{r Merge}
+
+```
+
+
+# Extract
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names.
+
+```{r Extract}
+
+```
+
+# Tidy
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+```{r Tidy}
+
+```
+
