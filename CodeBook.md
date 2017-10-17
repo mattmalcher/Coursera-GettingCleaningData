@@ -74,7 +74,7 @@ The following table shows the original variable name and feature numbers next to
 This should allow you to follow a variable through from the old code book to the equivalent mean value in the tidy data.
 
 | Feature Number |Old Variable Name | Variable Name in Tidy Dataset Containing the Equivalent Mean Quantity | Column Index in Tidy Data|
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | 1 | tBodyAcc-mean()-X | tBodyAccmeanX_m | 3 |
 | 2 | tBodyAcc-mean()-Y | tBodyAccmeanY_m | 4 |
 | 3 | tBodyAcc-mean()-Z | tBodyAccmeanZ_m | 5 |
