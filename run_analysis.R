@@ -112,6 +112,6 @@ tidydata <- desireddata %>%
 dim(tidydata)
 
 # Write tidied data out to a file
-write.table(tidydata, file='TidyData.txt', append=FALSE)
+write.table(tidydata, file='TidyData.txt', append=FALSE, row.names = FALSE)
 #
 
