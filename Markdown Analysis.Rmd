@@ -19,14 +19,14 @@ The following steps are for reliably re-aquiring the source data if I do somethi
 
 Clear out the dataset if it exists
 ```{bash DelFolder}
-rm -R UCI\ HAR\ Dataset/
+<!-- rm -R UCI\ HAR\ Dataset/ -->
 ```
 
 Download the data from coursera link
 ```{r Download Data}
-url = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-
-download.file(url,'UCI HAR Dataset.zip')
+# url = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+# 
+# download.file(url,'UCI HAR Dataset.zip')
 
 
 
@@ -34,7 +34,7 @@ download.file(url,'UCI HAR Dataset.zip')
 
 Unzip it
 ```{bash Unzip Download}
-unzip 'UCI HAR Dataset.zip'
+<!-- unzip 'UCI HAR Dataset.zip' -->
 ```
 
 
