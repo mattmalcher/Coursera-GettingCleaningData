@@ -10,16 +10,17 @@ setwd("~/Dropbox/MOOC/Coursera/Data Science Beginner/3. Getting & Cleaning Data/
 
 # Get Data
 # The following steps are for reliably re-aquiring the source data if I do something silly.
+# They are commented out to avoid re-downloading & unzipping each time script is run
 
-# Clear out the dataset if it exists
-system('rm -R \'UCI\ HAR\ Dataset/\'', wait=TRUE)
-
-# Download the data from coursera link
-url = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-download.file(url,'UCI HAR Dataset.zip')
-
-# Unzip it
-system('unzip \'UCI HAR Dataset.zip\'',wait=TRUE)
+# # Clear out the dataset if it exists
+# system('rm -R \'UCI\ HAR\ Dataset/\'', wait=TRUE)
+# 
+# # Download the data from coursera link
+# url = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+# download.file(url,'UCI HAR Dataset.zip')
+# 
+# # Unzip it
+# system('unzip \'UCI HAR Dataset.zip\'',wait=TRUE)
 
 
 # Merge the training and the test sets to create one data set.
