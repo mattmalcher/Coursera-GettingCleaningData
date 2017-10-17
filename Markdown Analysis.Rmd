@@ -148,7 +148,10 @@ tidydata <- desireddata %>%
   group_by(Subject,Activity) %>% 
   summarise_all(funs(m=mean))
 
+# Check the dimensions are as expected (88 vars selected by 30 subjects x 6 activities)
 dim(tidydata)
 
+# Write tidied data out to a file
+write.table(tidydata, file='TidyData.txt', append=FALSE)
 ```
 
